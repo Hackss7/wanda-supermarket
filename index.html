@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>万达超市</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product-category {
+            margin-bottom: 40px;
+        }
+        .product-category h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .product {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .promo {
+            background-color: #ffeb3b;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>万达超市</h1>
+    </header>
+    <nav>
+        <a href="#home">首页</a>
+        <a href="#products">产品目录</a>
+        <a href="#promo">促销信息</a>
+        <a href="#contact">联系我们</a>
+    </nav>
+    <div class="container" id="home">
+        <div class="promo">
+            <h2>最新促销</h2>
+            <p>买二赠一，限时优惠！</p>
+        </div>
+        <section class="product-category" id="products">
+            <h2>蔬菜</h2>
+            <div class="product">
+                <span>青菜</span>
+                <span>￥5/斤</span>
+            </div>
+            <div class="product">
+                <span>胡萝卜</span>
+                <span>￥3/斤</span>
+            </div>
+        </section>
+        <section class="product-category">
+            <h2>水果</h2>
+            <div class="product">
+                <span>苹果</span>
+                <span>￥8/斤</span>
+            </div>
+            <div class="product">
+                <span>香蕉</span>
+                <span>￥6/斤</span>
+            </div>
+        </section>
+        <section class="product-category">
+            <h2>饮料</h2>
+            <div class="product">
+                <span>可口可乐</span>
+                <span>￥3/瓶</span>
+            </div>
+            <div class="product">
+                <span>橙汁</span>
+                <span>￥4/瓶</span>
+            </div>
+        </section>
+        <section class="product-category">
+            <h2>零食</h2>
+            <div class="product">
+                <span>薯片</span>
+                <span>￥5/包</span>
+            </div>
+            <div class="product">
+                <span>巧克力</span>
+                <span>￥10/块</span>
+            </div>
+        </section>
+    </div>
+    <div class="container" id="promo">
+        <h2>促销信息</h2>
+        <p>每周都有不同的促销活动，敬请关注！</p>
+    </div>
+    <div class="container" id="contact">
+        <h2>联系我们</h2>
+        <p>地址：某某市某某区某某街道</p>
+        <p>电话：123-4567-890</p>
+        <p>邮箱：contact@wanda-supermarket.com</p>
+    </div>
+    <footer>
+        <p>万达超市 &copy; 2024</p>
+    </footer>
+</body>
+</html>
